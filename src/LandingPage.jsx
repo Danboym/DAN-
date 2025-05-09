@@ -2,7 +2,7 @@
 
 const LandingPage = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col">
+    <div className="min-h-screen bg-gray-100 flex flex-col overflow-x-hidden">
       {/* Header */}
       <header className="bg-white shadow-md py-4 px-6 flex justify-between items-center">
         <h1 className="text-2xl font-bold text-blue-600">Dev Portfolio</h1>

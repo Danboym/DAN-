@@ -2,10 +2,10 @@
 
 const LandingPage = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col overflow-x-hidden">
+    <div className="min-h-screen bg-gray-100 flex flex-col min-w-screen">
       {/* Header */}
       <header className="bg-white shadow-md py-4 px-6 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-blue-600">Dev Portfolio</h1>
+        <h1 className="text-2xl font-bold text-blue-600">MFITUMURENGEZI Danny</h1>
         <nav className="space-x-4 hidden md:flex">
           <a href="#projects" className="text-gray-700 hover:text-blue-600">Projects</a>
           <a href="#about" className="text-gray-700 hover:text-blue-600">About</a>
@@ -62,7 +62,7 @@ const LandingPage = () => {
   <p className="text-gray-700 mb-4">I'm open to freelance, internships, or collaboration opportunities.</p>
   <div className="flex justify-center space-x-6 text-2xl text-gray-600">
     {/* Email Icon */}
-    <a href="mailto:you@example.com" className="hover:text-blue-600" aria-label="Email">
+    <a href="mailto:dannymfitumurengezi@gmail.com" className="hover:text-blue-600" aria-label="Email">
       <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
         <path d="M4 4h16c1.1 0 2 .9 2 2v1.5L12 13 2 7.5V6c0-1.1.9-2 2-2z" />
         <path d="M2 8.5v9c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-9L12 15 2 8.5z" />
@@ -70,7 +70,7 @@ const LandingPage = () => {
     </a>
 
     {/* GitHub Icon */}
-    <a href="https://github.com/yourusername" target="_blank" className="hover:text-gray-900" aria-label="GitHub" rel="noopener noreferrer">
+    <a href="https://github.com/danboym" target="_blank" className="hover:text-gray-900" aria-label="GitHub" rel="noopener noreferrer">
       <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
         <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2.1c-3.2.7-3.9-1.4-3.9-1.4-.5-1.1-1.2-1.3-1.2-1.3-1-.7.1-.7.1-.7 1.1.1 1.6 1.2 1.6 1.2 1 .1.7 1.7 1.9 2 .3-.2.6-.6.8-.9-2.6-.3-5.3-1.3-5.3-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.3a11.4 11.4 0 0 1 6 0c2.3-1.6 3.3-1.3 3.3-1.3.6 1.7.2 2.9.1 3.2.8.9 1.2 2 1.2 3.2 0 4.7-2.7 5.6-5.3 5.9.4.3.8.9.8 1.9v2.9c0 .3.2.7.8.6A10.5 10.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z" />
       </svg>

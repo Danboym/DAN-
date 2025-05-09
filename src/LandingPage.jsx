@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+
 
 const LandingPage = () => {
   return (
@@ -57,15 +57,34 @@ const LandingPage = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="p-6 bg-white text-center">
-        <h3 className="text-2xl font-semibold mb-4">Get in Touch</h3>
-        <p className="text-gray-700 mb-4">I'm open to freelance, internships, or collaboration opportunities.</p>
-        <div className="flex justify-center space-x-6 text-2xl text-gray-600">
-          <a href="mailto:you@example.com" className="hover:text-blue-600"><FaEnvelope /></a>
-          <a href="https://github.com/yourusername" target="_blank" className="hover:text-gray-900"><FaGithub /></a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" className="hover:text-blue-700"><FaLinkedin /></a>
-        </div>
-      </section>
+<section id="contact" className="p-6 bg-white text-center">
+  <h3 className="text-2xl font-semibold mb-4">Get in Touch</h3>
+  <p className="text-gray-700 mb-4">I'm open to freelance, internships, or collaboration opportunities.</p>
+  <div className="flex justify-center space-x-6 text-2xl text-gray-600">
+    {/* Email Icon */}
+    <a href="mailto:you@example.com" className="hover:text-blue-600" aria-label="Email">
+      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v1.5L12 13 2 7.5V6c0-1.1.9-2 2-2z" />
+        <path d="M2 8.5v9c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-9L12 15 2 8.5z" />
+      </svg>
+    </a>
+
+    {/* GitHub Icon */}
+    <a href="https://github.com/yourusername" target="_blank" className="hover:text-gray-900" aria-label="GitHub" rel="noopener noreferrer">
+      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2.1c-3.2.7-3.9-1.4-3.9-1.4-.5-1.1-1.2-1.3-1.2-1.3-1-.7.1-.7.1-.7 1.1.1 1.6 1.2 1.6 1.2 1 .1.7 1.7 1.9 2 .3-.2.6-.6.8-.9-2.6-.3-5.3-1.3-5.3-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.3a11.4 11.4 0 0 1 6 0c2.3-1.6 3.3-1.3 3.3-1.3.6 1.7.2 2.9.1 3.2.8.9 1.2 2 1.2 3.2 0 4.7-2.7 5.6-5.3 5.9.4.3.8.9.8 1.9v2.9c0 .3.2.7.8.6A10.5 10.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z" />
+      </svg>
+    </a>
+
+    {/* LinkedIn Icon */}
+    <a href="https://linkedin.com/in/yourprofile" target="_blank" className="hover:text-blue-700" aria-label="LinkedIn" rel="noopener noreferrer">
+      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5.001zM2.5 8.98H7.5V21.5H2.5V8.98zM9.5 8.98H14V10.5c.6-1 1.6-1.5 3-1.5 2.5 0 4 1.7 4 5.2v7.3h-5V15c0-1.5-.5-2.5-1.7-2.5s-2 1-2 2.4v6.6H9.5V8.98z" />
+      </svg>
+    </a>
+  </div>
+</section>
+
 
       {/* Footer */}
       <footer className="text-center text-gray-500 text-sm py-4 bg-gray-100">
